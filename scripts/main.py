@@ -41,7 +41,8 @@ Log = DLogger(
     },
     save=True,
     single_file=True,
-    save_to="/opt/BotWave/scripts/wtt/logs.txt"
+    save_to="/opt/BotWave/scripts/wtt/logs.txt",
+    show_time=True
 )
 
 KILLFILE = '/tmp/killwtt'
