@@ -99,6 +99,12 @@ bash /opt/BotWave/scripts/wtt/stop.sh
 
 The stop script signals the bridge via `/tmp/killwtt` and the process shuts down gracefully.
 
+## Removal
+
+```bash
+sudo bash uninstall.sh
+```
+
 ## License
 
 Licensed under [GPLv3.0](LICENSE)
