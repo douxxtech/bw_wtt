@@ -11,6 +11,7 @@
 #? Environment variables:
 #?   - REMOTE_CMD_PORT (): The remote cmd port to bridge commands to. If unset, the application won't start
 #?   - WTT_PORT (9940): The port to listen for TCP connections to
+#?   - WTT_NEWLINE (false): If a newline (\n) should be added after each message
 #?
 #? Repository: https://github.com/douxxtech/bw_wtt
 
